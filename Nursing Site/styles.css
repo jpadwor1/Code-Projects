@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+    line-height: 1.6;
+}
+
+body {
+    background-color: lightslategrey;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,h2,h3,h4 {
+    font-size: 4em;
+    font-weight: 900;
+}
+
+/* Navbar Section */
+
+.navbar-container {
+    background-color: #ffffff;
+    vertical-align: center;
+}
+
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.nav-item button {
+    padding: 0.5em 1.6em;
+    margin: 0.5em 0.5em;
+    border-radius: 3em;
+    font-weight: 500;
+}
+
+.login-btn {
+    background-color: rgb(64, 54, 111);
+    color: #ffffff;
+    border: none;
+    transition: background-color 300ms ease;
+}
+
+.login-btn:hover ,
+.login-btn:focus {
+    background-color: #ffffff;
+    color: rgb(64, 54, 111);
+    border: 1px solid rgb(64, 54, 111);
+}
+
+.sign-up-btn {
+    background-color: #ffffff;
+    border: 1px solid rgb(64, 54, 111);
+    transition: background-color 500ms ease;
+}
+
+.sign-up-btn:hover, .sign-up-btn:focus {
+    background-color: rgb(64, 54, 111);
+    color: #ffffff;
+}
+
+.nav-link {
+    position: relative;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: rgb(64, 54, 111);
+    transform: scaleX(0);
+    transition: transform 500ms ease;
+    transform-origin: left;
+}
+.nav-item:hover .nav-link::after {
+    transform: scaleX(1);
+}
+
+/* Title Section */
+
+.title {
+    display: grid;
+    place-items: center;
+    padding: 15% 0;
+    background-color: #ffffff;
+    
+}
+
+.title h2 {
+    padding: 1% 0;
+    color: rgb(122, 102, 211);
+    font-size: 2.5rem;
+    
+}
+
+.title h3 {
+ font-size: 2rem;
+}
+
+.email-input ,.email-submit {
+    width: 200px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.email-input {
+    color: rgb(179, 179, 179);
+    border: 2px solid rgb(122, 102, 211);
+    border-radius: 6px;
+    box-shadow: inset 0 0 2px rgba(42, 163, 255, 0.5);
+    background-color: #fff;
+    font-size: 1.25rem;
+}
+
+.email-input:hover {
+    box-shadow: inset 0 0 5px rgb(122, 102, 211);
+}
+
+.email-submit {
+    color: #fff;
+    border-radius: 24px;
+    border: none;
+    background-color: rgb(64, 54, 111);
+    font-size: 1.25rem;
+    font-weight: 500;
+    position: relative;
+    z-index: 1;
+    padding: 5px 1px;
+
+}
+
+.email-submit:before {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(315deg, #6aeaf5 20%, #6b68af 60%);
+    transform: translate3d(10px, 20px, 1) scale(0.95);
+    filter: blur(10px);
+    opacity: var(0.8);
+    transition: opacity 0.3s;
+  }
+  .email-submit:hover::before {
+    opacity: var(.9);
+    filter: blur(20px);
+  }
+  
+  .email-submit::after {
+    content: "";
+    border: none;
+    border-radius: 24px;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+  }
+
+#text-gradient {
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #6aeaf5 20%, #6b68af 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+
+/* Available Topics */
+
+.card-grid {
+    margin: 50px 0px 50px 0px;
+    justify-content: center;
+}
+.card {
+    position: relative;
+    margin: 1% 1%;
+    background-color: rgb(64, 54, 111);
+    color: #fff;
+}
+
+.card-title {
+    vertical-align: center;
+    text-align: left;
+    padding-bottom: 20px;
+    margin: 15px 15px 0 15px ;
+
+}
+.card-img img {
+    width: 60px;
+    padding-right: 20px;
+    float: left;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(179deg) brightness(104%) contrast(101%);
+}
+
+
+.main-heading {
+    font-size: 20px;
+    font-weight: 500;
+
+
+}
+
+.card-subheading {
+    font-size: 16px;
+}
+
+.card-collapse-btn {
+    width: 40px;
+    color:#6b68af;
+    position: absolute;
+    top: 28px;
+    right: 25px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(179deg) brightness(104%) contrast(101%);
+}
+
+.card-body {
+    padding: 0;
+    transform: translateY(-100px);
+    visibility: hidden;
+}
+
+.card-body-title {
+    vertical-align: center;
+    text-align: left;
+}
+
+.card-body img {
+    padding: 12px 10px 12px 10px;
+}
+
+.body-main-heading {
+    padding-right: 5px;
+    font-weight: 500;
+}
+
+.body-subheading {
+    color: #6aeaf5;
+}
+
+
+
+
+
+
+

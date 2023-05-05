@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>border Radius Previewer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Source+Code+Pro:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Border Radius Previewer</h1>
+    <div class="container">
+        <div class="border-display"></div>
+        <div class="border-input-container">
+            <input type="text" id="border-top-left" class="border-input" value="0">
+            <input type="text" id="border-top-right" class="border-input" value="0">
+            <input type="text" id="border-bottom-left" class="border-input" value="0">
+            <input type="text" id="border-bottom-right" class="border-input" value="0">
+        </div>
+        <h2>Source Code:</h2>
+        <div id="source-code">
+            <p>border-top-left-radius: <span id="border-tl"></span> </p>
+            <p>border-top-right-radius: <span id="border-tr"></span> </p>
+            <p>border-bottom-right-radius: <span id="border-br"></span> </p>
+            <p>border-bottom-left-radius: <span id="border-bl"></span> </p>
+            <code>/* Shorthand Syntax */</code>
+            <p>border-radius: <span id="border-all"></span> </p>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

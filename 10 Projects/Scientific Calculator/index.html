@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.8.0/math.js"></script>
+
+</head>
+<body>
+    
+    <div class="container">
+        <div class="display-container">
+            <input type="text" id="expression" class="expression"></input>
+            <div id="result" class="result"></div>
+        </div>
+        <div class="key-container">
+            <!-- Row One -->
+            <button value="left-para"class="advanced">(</button>
+            <button value="right-para" class="advanced">)</button>
+            <button value="sqrt" class="advanced">&radic;</button>
+            <button value="cube-sqrt" class="advanced">&#8731;</button>
+            
+            <button id="clear" class="operator">AC</button>
+            <button id="delete" class="operator">DEL</button>
+            <button class="operator">%</button>
+            <button class="operator">/</button>
+            
+            <button value="x-sqrd" class="advanced">x&sup2;</button>
+            <button value="x-cubed" class="advanced">x&sup3;</button>
+            <button value="x-nth" class="advanced">x&#8319;</button>
+            <button value="e-x" class="advanced">e<sup>x</sup></button>
+            
+            <button class="number">7</button>
+            <button class="number">8</button>
+            <button class="number">9</button>
+            <button class="operator">*</button>
+
+            <button value="1/x" class="advanced"><sup>1</sup>/<sub>x</sub></button>
+            <button value="ln" class="advanced">ln</button>
+            <button value="log" class="advanced">log&#8321;&#8320;</button>
+            <button value="e" class="advanced">e</button>
+            
+            <button class="number">4</button>
+            <button class="number">5</button>
+            <button class="number">6</button>
+            <button class="operator">-</button>
+
+            <button value="sin" class="advanced">sin</button>
+            <button value="cos" class="advanced">cos</button>
+            <button value="tan" class="advanced">tan</button>
+            <button value="partial-der" class="advanced">&part;</button>
+            
+            <button class="number">1</button>
+            <button class="number">2</button>
+            <button class="number">3</button>
+            <button class="operator">+</button>
+
+            <button value="derivative" class="advanced"><sup>d</sup>/<sub>dx</sub></button>
+            <button value="pi" class="advanced">&#960;</button>
+            <button value="10-xth" class="advanced">10<sup>x</sup></button>
+            <button value="4th-root" class="advanced">&#8732;</button>
+
+            <button class="number span-two">0</button>    
+            <button class="number">.</button>
+            <button id="equals" class="operator">=</button>
+    </div>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>

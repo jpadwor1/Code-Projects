@@ -1,0 +1,96 @@
+body {
+    height: 100vh;
+    background-color: white;
+    display: grid;
+    place-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.container {
+    background-color: black;
+    height: 600px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.display-container {
+    height: 20%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.expression,
+.result {
+    margin: 10px 20px;
+}
+.expression{
+    font-size: 2.7em;
+    text-align: right;
+    background-color: white;
+    border: none;
+}
+
+.result {
+    font-size: 1.7em;
+}
+
+.key-container {
+    height: 80%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 90px);
+    gap: 9px;
+    margin: 15px auto;
+    justify-content: center;
+}
+
+.number,
+.operator,
+.advanced {
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.number:hover,
+.operator:hover,
+.advanced:hover {
+   opacity: .7;
+}
+
+
+.number:active,
+.operator:active,
+.advanced:active {
+    background-color: white;
+    color: black;
+}
+
+.number {
+    background-color: #333;
+}
+
+.advanced {
+    background-color: rgb(32, 32, 32);
+}
+
+.operator {
+    background-color: rgb(247, 137, 15);
+
+}
+
+.span-two {
+    grid-column: 5/7;
+    border-radius: 58px;
+}

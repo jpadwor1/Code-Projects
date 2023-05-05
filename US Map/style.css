@@ -1,0 +1,14 @@
+body {
+    display: grid;
+    place-items: center;
+
+}
+
+#MA {
+  fill: rgb(4, 4, 4);
+
+}
+
+#NY {
+    fill: aquamarine;
+}

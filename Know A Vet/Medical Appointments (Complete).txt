@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Know A Vet Website Team</title>
+	<style>
+		body {background:#fff;margin:0 30px;font-family:Helvetica;color:#000;}
+		h1, h2, h3 {font-weight:400;color:#1E73BE;}
+		h1 {font-family:Georgia;}
+		p, li {font-family:Georgia;font-size:1.3em;}
+		strong {color:#CB4335;}
+		a:link {color:blue;text-decoration:none;}
+		a:focus, a:hover {border-bottom:1px solid blue;}
+		a:visited {color:blue;border-bottom:none;}
+	</style>
+</head>
+
+<body>
+
+<h1>HTML Editing Assignments</h1>
+<p>John, welcome to the team! Here's your next assignment.</p>
+
+<h2>Style Guide Basics</h2>
+<p>Here are a few rules from my style guide that apply to all topics:</p>
+
+<ul>
+<li>All subheadings in a topic should be tagged H2. Occasionally, we may have a use for H3.</li>
+<li>Use initial caps for all words in H2 subheadings, except for articles, prepositions, and conjunctions.<br /><strong>Example</strong>: "Veterans Celebrate a Day to Remember and More"</li>
+<li>Use initial caps for the first word in a bulleted list.</li>
+<li>Avoid use of the ampersand (&) character, unless it's part of a title or a proper noun.<br /><strong>Exception Example</strong>: "Bed Bath & Beyond Files for Bankruptcy"</li>
+<li>In general, we have no use for SPAN tags. Remove them.</li>
+<li>Most bulleted lists, like this one, are unordered. Only procedural lists should be ordered (numbered) lists.</li>
+<li>All links that take the user off-site should include the target="_blank" attribute.</li>
+</ul>
+
+<h2>Instructions for This Assignment</h2>
+<p>The <a href="https://www.knowavet.org/before-during-and-after-a-medical-appointment/" target="_blank">Before, During and After a Medical Appointment</a> page is what you'll be editing for this task. Note the strike through on the broken links when you view the page in your browser. Remove the broken links and re-word the content when necessary.</p>
+<p>This task is much like the Sample Exercise. One thing in this content that you'll see a lot is the double use of URLs. We want only the named references used in HREFs, not the duplicates that show only the URL. For example, see the "Sources" section at the end of this topic.</p>
+<p>Create H2 headings where you think they're needed.</p>
+
+<h2>Content for This Editing Assignment</h2>
+
+<p>Going to an annual physical or going to an ongoing care appointment, most of us have walked out with unanswered questions. Whether your questions did not get answered because the answer was unclear to you, you were too embarrassed to ask the question or you simply forget to ask a question the list below will help you get your answers that could be critical to your health. </p>
+
+<h2>Questions to Ask When Scheduling Your Appointment</h2>
+
+<ul>
+	<li>Are you still accepting my current insurance?</li>
+	<li>Do you have the medical records from other providers?</li>
+	<li>What are your check-in procedures?</li>
+	<li>How far ahead of my appointment time do I need to arrive?</li>
+	<li>Do I need to confirm my appointment prior to my appointment day?</li>
+	<li>If I need to cancel or reschedule, how many days ahead of my appointment do I need to let you know to avoid a cancellation charge?</li>
+	<li>Do I need to bring any additional paperwork?</li>
+</ul>
+
+
+<h2>To Do Before Your Appointment</h2>
+<ul>
+	<li>Verified Doctor Received Previous Medical Records</li>
+	<li>Verify Medical Ride is Scheduled for Correct Day and Time</li>
+</ul>
+
+<h2>Things to Bring to Your Appointment</h2>
+<ul>
+	<li>List of your Current Prescriptions. For your convenience, the Center for Disease Control has created a<a href="https://www.cdc.gov/motorvehiclesafety/pdf/older_adult_drivers/Personal-Medicines-List_FINAL_508.pdf" target="_blank"> personal medicines list template.</a></li>
+	<li>List of Vitamins, Minerals, and Herbal Remedies</li>
+	<li>Food Log</li>
+	<li>Blood Pressure Log</li>
+	<li>List of Questions and Concerns, including questions about upcoming tests or procedures</li>
+	<li>List of Contact Information for Specialists and Primary Care Provider</li>
+	<li>Current Insurance Card</li>
+	<li>Photo ID</li>
+	<li>AARP Card or Other Discount Card</li>
+</ul>
+
+<h2>Questions to Ask During Your Doctor Appointment</h2>
+<ul>
+	<li>If I was your family member or loved one what would you advise?</li>
+	<li>Here is the current list of medicines, supplements and herbs I am taking do any of these have adverse reactions with each other or the medicine you are prescribing?</li>
+	<li>Should I be concerned about my lifestyle (weight, eating, sleep, drinking, drug use, other addictions)?</li>
+	<li>Could I benefit from Homeopathic options such as acupuncture, massage, or chiropractor?</li>
+	<li>What should I know about side effects or reactions about the new medicine you are prescribing?</li>
+	<li>Do I need additional testing and what symptoms should I watch for based on my family history?</li>
+	<li>Do I need additional testing and is there special preparation for the test?</li>
+	<li>What is normal on the test results?</li>
+	<li>How will I get the results of my test?</li>
+	<li>Do I need to follow up with a specialist and does your office help coordinate?</li>
+	<li>Do We have to address these problems now or can we follow up at a later appointment?</li>
+	<li>When should my next appointment with you be?</li>
+	<li>If I have follow-up questions, how should I follow up with you?</li>
+</ul>
+
+<h2>Things to Do After Your Doctor Appointment</h2>
+<ul>
+	<li>Call or email your doctor follow up questions.</li>
+	<li>Fill prescriptions or verify electronic subscription was received by mail service.</li>
+	<li>Discard old prescriptions</li>
+	<li>Update prescription list in case of emergency</li>
+	<li>Set alarms or set up reminders for new lifestyle adjustments</li>
+	<li>Update emergency contact information and medic alert systems</li>
+	<li>Update logs for new items or symptoms to track for your next appointment</li>
+	<li>Set reminders to follow-up on test results</li>
+	<li>Schedule follow-up appointments</li>
+	<li>Compare your explanation of benefits to your bill from the doctor</li>
+</ul>
+
+<p>If you have a specific prognosis or illness, read Cleveland Clinic's article, Questions to Ask Your Doctor, 
+	<a href="https://my.clevelandclinic.org/patients/information/questions-to-ask-your-doctor" target="_blank">click here</a>.
+</p>
+
+<h2>Sources:</h2>
+<p><a href="https://www.cnet.com/health/questions-to-ask-at-your-next-doctor-visit/" target="_blank">12 questions to ask at your next doctor appointment - CNET</a> by <a href="https://www.cnet.com/profiles/amandacapritto/" target="_blank">Amanda Capritto</a></p>
+<p><a href="https://time.com/4433153/9-questions-ask-doctor/" target="_blank">9 Questions You Always Need to Ask Your Doctor | Time</a> by Markham Heid</p>
+<p><a href="https://my.clevelandclinic.org/patients/information/questions-to-ask-your-doctor" target="_blank">Questions to Ask Your Doctor (clevelandclinic.org)</a></p>
+
+</body>
+</html>
