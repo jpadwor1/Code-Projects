@@ -1074,8 +1074,9 @@ a {
 	grid-template-rows: 1fr;
 	grid-column-gap: 1rem;
 	grid-row-gap: 1rem;
-	overflow: scroll;
-	height: 450px;
+	overflow-x: scroll;
+    overflow-y: hidden;
+	height: 500px;
 	scroll-snap-type: both mandatory;
 	scroll-padding: 1rem;
 }
@@ -1102,6 +1103,7 @@ a {
 
 .home-trail-image {
     height: 350px;
+    width: 100%;
 }
 
 .home-trail-heading {
