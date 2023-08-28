@@ -112,6 +112,11 @@ function getRandomFloat(min, max) {
   return Math.floor(Math.random() * (max - min) + min);
 }
 
+app.use((req, res, next) => {
+  res.locals.myVariable = "Hello from app.js!";
+  next();
+});
+
 router.post('/search-trails', async (req, res) => {
 
   const { latitude, longitude } = req.body;
@@ -130,7 +135,7 @@ const matchingTrails = trails.filter(trail => trail.properties.state === closest
 router.get('/', async (req,res) => { 
   const trails = await trail.find();
   const foundTrails = await trail.find({ $text: { $search: closestState || "California"  } });
-  res.render('home', {foundTrails:foundTrails,authenticated:req.isAuthenticated(),trails: trails, trailImages:trailImages,getRandomFloat: getRandomFloat});});   
+  res.render('home', {foundTrails:foundTrails, authenticated:req.isAuthenticated(),trails: trails, trailImages:trailImages,getRandomFloat: getRandomFloat});});   
 
   let totalLat = 0;
   let totalLng = 0;
